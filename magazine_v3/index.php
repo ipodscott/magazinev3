@@ -42,10 +42,10 @@
 		}
 		
 		.open-overlay-logo img{
-			max-width: 250px !important;
+			max-width: 120px !important;
 			width: 90%;
-			opacity: 0.1;
-			-webkit-opacity: 0.1;
+			opacity: 0.2;
+			-webkit-opacity: 0.2;
 		}
 		
 	</style>
@@ -492,9 +492,9 @@
 		<div class="open-overlay-logo"><img class="cover-title-image" src="http://wpwebos.com/spinner.svg"></div>
 	</div>
 </div>
-  <link rel="stylesheet" type="text/css" href="css/main_main.css">
+  <link rel="stylesheet" type="text/css" href="css/main_min.css">
 
-<link rel="stylesheet" type="text/css" href="https://dieselpunkindustries.com/libs/audioplayer/css/audioplayer.css">
+<link rel="stylesheet" type="text/css" href="css/audioplayer.css">
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:300,400,700|Material+Icons" rel="stylesheet">
 
 <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -502,7 +502,7 @@
 
 <script src="https://www.dieselpunkindustries.com/libs/audioplayer/js/audioplayer.min.js"></script>
 
-<script src="js/scripts.js"></script>
+<script src="js/scripts_min.js"></script>
 
 
 </body>
