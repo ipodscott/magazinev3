@@ -68,6 +68,7 @@ $(document).ready(function () {
     });
 
     $(".show-right").click(function () {
+	    $('.audio-box').fadeIn();
         $(".footer-audio").addClass('show-audio');
         $(".side-buttons").removeClass('show-side');
         $('.btt-footer').fadeIn(500);
