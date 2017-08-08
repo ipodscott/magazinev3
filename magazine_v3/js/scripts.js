@@ -38,13 +38,13 @@ $(document).ready(function () {
     /*Menu Controls*/
     $(".menu-btn").click(function () {
         $(".menu").addClass('show-menu');
-        $('.all').addClass('fade');
+        /* $('.all').addClass('fade'); */
         $(".menu-layer").fadeIn(500);
     });
 
     $(".menu ul li, .menu ul li a, .close-menu, .menu-layer").click(function () {
         $(".menu").removeClass('show-menu');
-        $('.all').removeClass('fade');
+        /* $('.all').removeClass('fade'); */
         $(".menu-layer").delay(250).fadeOut(500);
     });
 
@@ -238,14 +238,14 @@ window.document.onkeydown = function (e) {
     if (!e) e = event;
     if (e.keyCode == 39) {
         $(".menu").addClass('show-menu');
-        $('.all').addClass('fade');
+        /* $('.all').addClass('fade'); */
         $(".menu-layer").fadeIn(500);
     }
 
     if (!e) e = event;
     if (e.keyCode == 37) {
         $(".menu").removeClass('show-menu');
-        $('.all').removeClass('fade');
+        /* $('.all').removeClass('fade'); */
         $(".menu-layer").delay(250).fadeOut(500);
     }
 };

@@ -3,6 +3,7 @@
 Magazine is a slim framework primarily designed for tablets and desktop as either a multipage or single page website. The JS and CSS has been optimized to support audio, video, menus, smooth scrolling, image light boxes, video backgrounds and parallax effects without all the overhead created by including additional script and style libraries. Below are list of features included with this framework.
 
 ## Updates
+* 17/08/08 - Adjusted scripts and css to improve google page speed performance
 * 17/03/17 - Added new scalable modal videos funcrtionality and design
 * 17/04/24 - Adjusted padding for tablet and mobile devices.
 * 17/05/04 - Added Accordions

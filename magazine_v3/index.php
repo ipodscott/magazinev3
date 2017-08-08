@@ -67,7 +67,7 @@
     
 	<div class="middle">
 	    <div class="main-content">
-	        <img class="cover-title-image" src="https://s3.amazonaws.com/imglibs/magazine_v2.svg">
+	        <img class="cover-title-image" src="images/magazine_v3.svg">
         </div>
         
         	<div class="full break center"><a href="#intro"><btn>Introduction</btn></a></div>
@@ -77,7 +77,7 @@
 <div class="full-panel" name="intro">
 		<div class="middle">
 		<div class="main-content">
-		    <div class="full"><h1 class="center">Magazine Framework V.2</h1></div>
+		    <div class="full"><h1 class="center">Magazine Framework V.3</h1></div>
 		    <div class="Full">
 		        <h2>Overview:</h2>
 		        <p>
