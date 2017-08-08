@@ -11,6 +11,38 @@
 		opacity: 0;
 		-webkit-opacity: 0;
 		}
+		
+		
+		.open-overlay{
+			display: block;
+			position: fixed;
+			top:0px;
+			left: 0px;
+			width: 100%;
+			height: 100vh;
+			z-index: 99999;
+			background-color: #121212;
+		}
+		
+		.open-overlay-box{
+			display: table;
+			height: 100vh;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.open-overlay-logo{
+			display: table-cell;
+			vertical-align: middle;
+		}
+		
+		.open-overlay-logo img{
+			max-width: 250px !important;
+			width: 90%;
+			opacity: 0.1;
+			-webkit-opacity: 0.1;
+		}
+		
 	</style>
 
             
