@@ -10,3 +10,16 @@ Magazine is a slim framework primarily designed for tablets and desktop as eithe
 * 17/05/04 - iframe correctly empties when closing YouTube, Vimeo, Wistia, or any other iframe based videos
 * 17/05/04 - Removed default YouTube video from iframe.
 
+## Features
+* Fully Responsive
+* Support for iframe and video lightboxes
+* Video Backgrounds
+* Image Lightboxes
+* Supports MP4 and MP3
+* Smooth Scrolling
+* Mininal audio player format
+* Light and dark themes available
+* Dynamically loading iframe, audio and video 
+* Lightweight JS, and CSSSidr style menu
+* Lightweight Parallax optimized for iOS
+* Scalable H1, and H2 fonts
