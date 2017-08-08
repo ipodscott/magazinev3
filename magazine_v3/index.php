@@ -7,6 +7,11 @@
     <title></title>
       
 	<style>
+		
+		body{
+			background-color: #000;
+		}
+		
 		.all{
 		opacity: 0;
 		-webkit-opacity: 0;
