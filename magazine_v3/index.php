@@ -59,7 +59,7 @@
     
 <div class="full-panel" style="" name="video-bg">
     <div class="vid-bg-box">
-        <video src="https://s3.amazonaws.com/bgrnds/waterfall_bg.mp4" class="video_background" autoplay="autoplay" loop="loop">
+        <video src="video/waterfall_bg.mp4" class="video_background" autoplay="autoplay" loop="loop">
 	</video>
     </div>
     
@@ -179,7 +179,7 @@
 				   
 			    <div class="forty pull-right">
 			    	<div class="vid-link movie-btn sixteen-nine-btn" vidurl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/battle_of_britain.mp4">
-				    	<img class="img-shadow" src="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/bob.jpg">
+				    	<img class="img-shadow" src="images/bob.jpg">
 							<div class="vid-overlay">
 								<div class="vid-table">
 									<div class="cell"><i class="material-icons">play_circle_outline</i></div>
@@ -204,8 +204,8 @@
 			    
 			     <div class="forty pull-left">
 			          
-			          <div class="tube-link sixteen-nine-btn" vidurl="https://www.youtube.com/embed/RtU_mdL2vBM?autoplay=1">
-							<img src="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/overwatch_th.jpg">
+			          <div class="tube-link sixteen-nine-btn" vidurl="https://www.youtube.com/embed/bRDOrY97wkk?autoplay=1">
+							<img src="images/overwatch_th.jpg">
 							<div class="vid-overlay">
 								<div class="vid-table">
 									<div class="cell"><i class="material-icons">play_circle_outline</i></div>
@@ -240,7 +240,7 @@
 
 
 
-<div class="half-panel parallax" style="background-image:url(https://www.wpwebos.com/magazine_v3/images/toastmaster.jpg);" name="layout">
+<div class="half-panel parallax" style="background-image:url(images/toastmaster.jpg);" name="layout">
     <div class="panel-overlay"></div>
 	<div class="middle">
 	    <div class="main-content">
@@ -284,7 +284,7 @@
     		        </p>
     		    </div>
     		    
-    		    <div class="forty"><img class="shadow pop-image" imgUrl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/sombra.jpg" src="images/_text.png"/></div>
+    		    <div class="forty"><img class="shadow pop-image" imgUrl="images/sombra.jpg" src="images/_text.png"/></div>
     		</div>
     		
     		<div class="row">
@@ -306,11 +306,11 @@
 </div>
 
 
-<div class="half-panel parallax" style="background-image:url(https://jsbin-user-assets.s3.amazonaws.com/ipodscott/sombra.jpg);" name="big-media">
+<div class="half-panel parallax" style="background-image:url(images/sombra.jpg);" name="big-media">
     <div class="panel-overlay"></div>
 	<div class="middle">
 	    <div class="main-content">
-	        <img class="big-play movie-btn sixteen-nine-btn" vidUrl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/infiltration.mp4" src="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/play_dark_btn.svg">
+	        <img class="big-play movie-btn sixteen-nine-btn" vidUrl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/infiltration.mp4" src="images/play_dark_btn.svg">
         </div>
     </div>
 </div>
@@ -332,7 +332,7 @@
     		</div>
     		
     		<div class="row">
-    		    <div class="forty pull-left"><img class="shadow" src="https://www.wpwebos.com/magazine_v3/images/_text_2.png"/> </div>
+    		    <div class="forty pull-left"><img class="shadow" src="images/_text_2.png"/> </div>
     		    <div class="sixty pull-right"> <h2>Accordion</h2>
 	    		    <p>
 		    		    
@@ -375,7 +375,7 @@
     		</div>
     		
     		<div class="row">
-    		    <div class="forty pull-right"><img class="shadow" src="https://www.wpwebos.com/magazine_v3/images/_text_2.png"/> </div>
+    		    <div class="forty pull-right"><img class="shadow" src="images/_text_2.png"/> </div>
     		    <div class="sixty pull-left"> <h2>Sample Copy</h2> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet risus vel diam dictum convallis. Integer et nulla venenatis, malesuada metus sed, vestibulum justo. Praesent faucibus justo eu mi varius, a iaculis sapien elementum. Suspendisse ut porttitor orci. Nam vitae tincidunt sem. Sed eget elementum velit. Ut sit amet rhoncus leo. Donec lobortis dictum risus, et rhoncus dui posuere sed. Maecenas id fringilla lectus. Nullam vitae leo auctor, luctus mi a, tempor elit. Cras porttitor at velit ac pharetra. Sed lacinia sollicitudin pharetra. Nullam fringilla libero in libero viverra commodo. Fusce eget porta magna. Nulla porttitor, urna eu posuere cursus, ligula augue facilisis augue, id aliquet felis dolor id nunc. Phasellus quis ultricies libero, ac mollis nibh. In interdum commodo sollicitudin. </p> </div>
     		</div>
     		
@@ -467,7 +467,7 @@
     <div class="movie-box">
         <div class="wide-screen">
             <div class="vid-holder">
-	            <i class="material-icons close"></i>
+	            <div class="close"><i class="material-icons">close</i></div>
                 <img class="widescreen-img" src="https://s3.amazonaws.com/imglibs/bg_widescreen.gif"/>
                 <img class="standard-img" src="https://s3.amazonaws.com/imglibs/standard_bg.gif"/>
                 <img class="sixteen-nine" src="https://s3.amazonaws.com/imglibs/16x9_bg.png"/>
@@ -482,23 +482,23 @@
 
 
 <div class="btt-footer">
-   <a href="#video-bg"><img class="shadow" src="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/top_link.svg"></a>
+   <a href="#video-bg"><img class="shadow" src="images/top_link.svg"></a>
 </div>
 
 <!-- Close All --> </div>
 
 <div class="open-overlay">
 	<div class="open-overlay-box">
-		<div class="open-overlay-logo"><img class="cover-title-image" src="http://wpwebos.com/spinner.svg"></div>
+		<div class="open-overlay-logo"><img class="cover-title-image" src="images/spinner.svg"></div>
 	</div>
 </div>
 
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:300,400,700|Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/main_min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/audioplayer.css">
 <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://www.dieselpunkindustries.com/libs/audioplayer/js/audioplayer.min.js"></script>
-<script src="js/scripts_min.js"></script>
+<script src="js/audioplayer_min.js"></script>
+<script src="js/scripts.js"></script>
 
 
 </body>
