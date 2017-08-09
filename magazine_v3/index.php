@@ -70,7 +70,7 @@
 	        <img class="cover-title-image" src="images/magazine_v3.svg">
         </div>
         
-        	<div class="full break center"><a href="#intro"><btn>Introduction</btn></a></div>
+        	<div class="break center"><a href="#intro"><btn>Introduction</btn></a></div>
     </div>
 </div>
 
@@ -78,13 +78,13 @@
 		<div class="middle">
 		<div class="main-content">
 		    <div class="full"><h1 class="center">Magazine Framework V.3</h1></div>
-		    <div class="Full">
+		    <div class="full">
 		        <h2>Overview:</h2>
 		        <p>
 		            Magazine is a slim framework primarily designed for tablets and desktop as either a multipage or single page website. The JS and CSS has been optimized to support audio, video, menus, smooth scrolling, image light boxes, video backgrounds and parallax effects without all the overhead created by including additional script and style libraries. Below are list of features included with this framework.
 		        </p>
 		    </div>
-		    <div class="Full">
+		    <div class="full">
 		        <h2>Updates:</h2>
 		        <p>
 			        17/03/17 - Added new scalable modal videos funcrtionality and design<br />
@@ -96,8 +96,9 @@
 		        </p>
 		    </div>
 		    
-    		<h2>Features:</h2>
+    		
 		    <div class="full">
+			    <h2>Features:</h2>
 		        <ul>
 		            <li>Fully Responsive</li>
 		            <li>Support for iframe and video lightboxes</li>
@@ -117,7 +118,7 @@
 		        </ul>
 		    </div>
 		    
-		   <div class="full break center"><a href="#parallax"><btn>Get Started</btn></a></div>
+		   <div class="break center"><a href="#parallax"><btn>Get Started</btn></a></div>
 		    
 		 
 		    
@@ -131,7 +132,7 @@
 	<div class="middle">
 	    <div class="main-content">
 	        <h1 class="center">Parallax Cover</h1>
-	        <div class="full break center"><a href="#audio"><btn>Audio Samples</btn></a></div>
+	        <div class="break center"><a href="#audio"><btn>Audio Samples</btn></a></div>
 		    
         </div>
     </div>
@@ -163,7 +164,7 @@
                     <div class="play-audio" audioUrl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/try_me.mp3">Play Audio Two <i class="material-icons">volume_up</i></div>
                 </div>
         </div>
-         <div class="full break center"><a href="#video"><btn>Video Sample</btn></a></div>
+         <div class="break center"><a href="#video"><btn>Video Sample</btn></a></div>
     </div>
 </div>
 
@@ -172,9 +173,9 @@
 		<div class="middle">
 			<div class="main-content">
 			   
-			  <div class="full"><h2>Video Samples</h2></div>
+			 
 			   <div class="row">
-				   
+				   <div class="full"><h2>Video Samples</h2></div>
 				   
 				   
 			    <div class="forty pull-right">
@@ -193,7 +194,7 @@
 			    
 			    
 			    <div class="sixty pull-left">
-				    <h2>MPEG4 HTML5 Sample</h2>
+				    <h3>MPEG4 HTML5 Sample</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet risus vel diam dictum convallis. Integer et nulla venenatis, malesuada metus sed, vestibulum justo. Praesent faucibus justo eu mi varius, a iaculis sapien elementum. Suspendisse ut porttitor orci. Nam vitae tincidunt sem. Sed eget elementum velit. Ut sit amet rhoncus leo. Donec lobortis dictum risus, et rhoncus dui posuere sed. Maecenas id fringilla lectus. Nullam vitae leo auctor, luctus mi a, tempor elit. Cras porttitor at velit ac pharetra. Sed lacinia sollicitudin pharetra. Nullam fringilla libero in libero viverra commodo. Fusce eget porta magna. Nulla porttitor, urna eu posuere cursus, ligula augue facilisis augue, id aliquet felis dolor id nunc. Phasellus quis ultricies libero, ac mollis nibh. In interdum commodo sollicitudin.</p>
 			    
 			    </div>
@@ -218,7 +219,7 @@
 			    
 			    
 			    <div class="sixty pull-right">
-				    <h2>YouTube Video Sample</h2>
+				    <h3>YouTube Video Sample</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet risus vel diam dictum convallis. Integer et nulla venenatis, malesuada metus sed, vestibulum justo. Praesent faucibus justo eu mi varius, a iaculis sapien elementum. Suspendisse ut porttitor orci. Nam vitae tincidunt sem. Sed eget elementum velit. Ut sit amet rhoncus leo. Donec lobortis dictum risus, et rhoncus dui posuere sed. Maecenas id fringilla lectus. Nullam vitae leo auctor, luctus mi a, tempor elit. Cras porttitor at velit ac pharetra. Sed lacinia sollicitudin pharetra. Nullam fringilla libero in libero viverra commodo. Fusce eget porta magna. Nulla porttitor, urna eu posuere cursus, ligula augue facilisis augue, id aliquet felis dolor id nunc. Phasellus quis ultricies libero, ac mollis nibh. In interdum commodo sollicitudin.</p>
 			    
 			    </div>
@@ -234,7 +235,7 @@
 			
 			
 			
-			<div class="full break center"><a href="#layout"><btn>Basic Layout</btn></a></div>
+			<div class="break center"><a href="#layout"><btn>Basic Layout</btn></a></div>
 		</div>
 </div>
 
@@ -245,7 +246,7 @@
 	<div class="middle">
 	    <div class="main-content">
 	        <h1 class="center">Parallax Half Height Cover</h1>
-	        <div class="full break center"><a href="#big-media"><btn>Big Media Link</btn></a></div>
+	        <div class="break center"><a href="#big-media"><btn>Big Media Link</btn></a></div>
         </div>
     </div>
 </div>
@@ -493,12 +494,12 @@
 	</div>
 </div>
 
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:300,400,700|Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,500,600,700|Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main_min.css">
 <link rel="stylesheet" type="text/css" href="css/audioplayer.css">
 <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="js/audioplayer_min.js"></script>
-<script src="js/scripts.js"></script>
+<script src="js/scripts_min.js"></script>
 
 
 </body>
