@@ -156,7 +156,7 @@ $(document).ready(function () {
         $('.media-overlay, .close-media, .img-pop-box').fadeIn(500, function () {
             $('.img-holder img').fadeIn(500);
         });
-        $('body').addClass('fade');
+        
     });
 
     $(".close-media, .img-holder img").click(function () {
@@ -166,7 +166,7 @@ $(document).ready(function () {
             $('.myImage').attr("src", 'images/place_holder.jpg');
         });
         document.getElementById('myVideo').pause();
-        $('body').removeClass('fade');
+    
     });
     
   

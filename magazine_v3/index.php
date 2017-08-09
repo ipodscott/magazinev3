@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://www.wpwebos.com/magazine_v3/images/screenshot.jpg" />
     <title></title>
       
 	<style>
@@ -118,8 +119,9 @@
 		        </ul>
 		    </div>
 		    
+		    <div class="full">
 		   <div class="break center"><a href="#parallax"><btn>Get Started</btn></a></div>
-		    
+		    </div>
 		 
 		    
 		</div>
@@ -144,25 +146,27 @@
 			<div class="main-content">
 			
 				<div class="full"><h2>Audio Samples</h2></div>
-                <div class="half">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet risus vel diam dictum convallis. Integer et nulla venenatis, malesuada metus sed, vestibulum justo. Pellentesque ornare justo non orci aliquet ullamcorper. Nullam consectetur lacus mauris, pellentesque hendrerit dolor hendrerit eget. Nulla non finibus mi, ac dignissim elit. Proin semper bibendum ipsum, non dignissim arcu feugiat sit amet. Vestibulum porta nunc urna, ac mattis quam sodales ut.</p>
-
-<p>Praesent faucibus justo eu mi varius, a iaculis sapien elementum. Suspendisse ut porttitor orci. Nam vitae tincidunt sem. Sed eget elementum velit. Ut sit amet rhoncus leo. Donec lobortis dictum risus, et rhoncus dui posuere sed. Maecenas id fringilla lectus. Nullam vitae leo auctor, luctus mi a, tempor elit. Cras porttitor at velit ac pharetra. Sed lacinia sollicitudin pharetra. Nullam fringilla libero in libero viverra commodo. Fusce eget porta magna. Nulla porttitor, urna eu posuere cursus, ligula augue facilisis augue, id aliquet felis dolor id nunc. Phasellus quis ultricies libero, ac mollis nibh. In interdum commodo sollicitudin.</p>
-                    
-                    <div class="play-audio" audioUrl="https://www.wpwebos.com/music/halcyon_and_on_and_on.mp3">Play Audio One <i class="material-icons">volume_up</i></div>
-
-
-
-                </div>
-                <div class="half">
-                    
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet risus vel diam dictum convallis. Integer et nulla venenatis, malesuada metus sed, vestibulum justo. Pellentesque ornare justo non orci aliquet ullamcorper. Nullam consectetur lacus mauris, pellentesque hendrerit dolor hendrerit eget. Nulla non finibus mi, ac dignissim elit. Proin semper bibendum ipsum, non dignissim arcu feugiat sit amet. Vestibulum porta nunc urna, ac mattis quam sodales ut.</p>
-
-<p>Praesent faucibus justo eu mi varius, a iaculis sapien elementum. Suspendisse ut porttitor orci. Nam vitae tincidunt sem. Sed eget elementum velit. Ut sit amet rhoncus leo. Donec lobortis dictum risus, et rhoncus dui posuere sed. Maecenas id fringilla lectus. Nullam vitae leo auctor, luctus mi a, tempor elit. Cras porttitor at velit ac pharetra. Sed lacinia sollicitudin pharetra. Nullam fringilla libero in libero viverra commodo. Fusce eget porta magna. Nulla porttitor, urna eu posuere cursus, ligula augue facilisis augue, id aliquet felis dolor id nunc. Phasellus quis ultricies libero, ac mollis nibh. In interdum commodo sollicitudin.</p>
-                    
-                    
-                    <div class="play-audio" audioUrl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/try_me.mp3">Play Audio Two <i class="material-icons">volume_up</i></div>
-                </div>
+				<div class="row">
+	                <div class="half">
+	                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet risus vel diam dictum convallis. Integer et nulla venenatis, malesuada metus sed, vestibulum justo. Pellentesque ornare justo non orci aliquet ullamcorper. Nullam consectetur lacus mauris, pellentesque hendrerit dolor hendrerit eget. Nulla non finibus mi, ac dignissim elit. Proin semper bibendum ipsum, non dignissim arcu feugiat sit amet. Vestibulum porta nunc urna, ac mattis quam sodales ut.</p>
+	
+	<p>Praesent faucibus justo eu mi varius, a iaculis sapien elementum. Suspendisse ut porttitor orci. Nam vitae tincidunt sem. Sed eget elementum velit. Ut sit amet rhoncus leo. Donec lobortis dictum risus, et rhoncus dui posuere sed. Maecenas id fringilla lectus. Nullam vitae leo auctor, luctus mi a, tempor elit. Cras porttitor at velit ac pharetra. Sed lacinia sollicitudin pharetra. Nullam fringilla libero in libero viverra commodo. Fusce eget porta magna. Nulla porttitor, urna eu posuere cursus, ligula augue facilisis augue, id aliquet felis dolor id nunc. Phasellus quis ultricies libero, ac mollis nibh. In interdum commodo sollicitudin.</p>
+	                    
+	                    <div class="play-audio" audioUrl="https://www.wpwebos.com/music/halcyon_and_on_and_on.mp3">Play Audio One <i class="material-icons">volume_up</i></div>
+	
+	
+	
+	                </div>
+	                <div class="half">
+	                    
+	                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet risus vel diam dictum convallis. Integer et nulla venenatis, malesuada metus sed, vestibulum justo. Pellentesque ornare justo non orci aliquet ullamcorper. Nullam consectetur lacus mauris, pellentesque hendrerit dolor hendrerit eget. Nulla non finibus mi, ac dignissim elit. Proin semper bibendum ipsum, non dignissim arcu feugiat sit amet. Vestibulum porta nunc urna, ac mattis quam sodales ut.</p>
+	
+	<p>Praesent faucibus justo eu mi varius, a iaculis sapien elementum. Suspendisse ut porttitor orci. Nam vitae tincidunt sem. Sed eget elementum velit. Ut sit amet rhoncus leo. Donec lobortis dictum risus, et rhoncus dui posuere sed. Maecenas id fringilla lectus. Nullam vitae leo auctor, luctus mi a, tempor elit. Cras porttitor at velit ac pharetra. Sed lacinia sollicitudin pharetra. Nullam fringilla libero in libero viverra commodo. Fusce eget porta magna. Nulla porttitor, urna eu posuere cursus, ligula augue facilisis augue, id aliquet felis dolor id nunc. Phasellus quis ultricies libero, ac mollis nibh. In interdum commodo sollicitudin.</p>
+	                    
+	                    
+	                    <div class="play-audio" audioUrl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/try_me.mp3">Play Audio Two <i class="material-icons">volume_up</i></div>
+	                </div>
+				</div>
         </div>
          <div class="break center"><a href="#video"><btn>Video Sample</btn></a></div>
     </div>
@@ -494,12 +498,14 @@
 	</div>
 </div>
 
+
+
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,500,600,700|Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/main_min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/audioplayer.css">
 <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="js/audioplayer_min.js"></script>
-<script src="js/scripts_min.js"></script>
+<script src="js/scripts.js"></script>
 
 
 </body>
