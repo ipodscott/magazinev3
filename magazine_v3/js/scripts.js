@@ -1,6 +1,7 @@
 $(document).ready(function () {
 	
-	$('.open-overlay').delay(2000).fadeOut(500, function(){});
+
+	$('.open-overlay').delay(1000).fadeOut(500, function(){});
 	 $('.all').delay(500).fadeTo(500, 1);
 	
     $('a[href*="#"]:not([href="#"])').click(function () {
@@ -79,6 +80,7 @@ $(document).ready(function () {
         $(".side-buttons").removeClass('show-side');
         document.getElementById('myAudio').pause();
         $('.btt-footer').fadeIn(500);
+        $('.audio-box').fadeOut();
     });
 
     $(function () {

@@ -369,7 +369,7 @@ img{
     bottom:-90px;
     min-width:100%;
     height:50px;
-    z-index:9999;
+    z-index:999;
     transition: all 0.5s;
 }
 
@@ -924,17 +924,7 @@ img{
     text-align:center;
 }
 
-.close{
-    position:absolute;
-    font-weight:300;
-    letter-spacing:0.125em;
-    text-transform:uppercase;
-    font-size:10px;
-    right:0px;
-    top:-30px;
-    color:#999;
-    cursor:pointer;
-}
+
 
 .wide-screen{
     display:table-cell;
@@ -954,6 +944,18 @@ img{
     border-width:1px;
     border-color:#333;
     max-width: calc(100% - 122px);
+}
+
+.vid-holder .close{
+    position:absolute;
+    font-weight:300;
+    letter-spacing:0.125em;
+    text-transform:uppercase;
+    font-size:30px;
+    right:0px;
+    top:-30px;
+    color:#999;
+    cursor:pointer;
 }
 
 

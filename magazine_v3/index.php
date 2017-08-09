@@ -39,13 +39,13 @@
 		.open-overlay-logo{
 			display: table-cell;
 			vertical-align: middle;
+			opacity: 0.2;
+			-webkit-opacity: 0.2;
 		}
 		
 		.open-overlay-logo img{
 			max-width: 120px !important;
 			width: 90%;
-			opacity: 0.2;
-			-webkit-opacity: 0.2;
 		}
 		
 	</style>
@@ -492,16 +492,12 @@
 		<div class="open-overlay-logo"><img class="cover-title-image" src="http://wpwebos.com/spinner.svg"></div>
 	</div>
 </div>
-  <link rel="stylesheet" type="text/css" href="css/main_min.css">
 
-<link rel="stylesheet" type="text/css" href="css/audioplayer.css">
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:300,400,700|Material+Icons" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href="css/main_min.css">
+<link rel="stylesheet" type="text/css" href="css/audioplayer.css">
 <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-
-
 <script src="https://www.dieselpunkindustries.com/libs/audioplayer/js/audioplayer.min.js"></script>
-
 <script src="js/scripts_min.js"></script>
 
 
