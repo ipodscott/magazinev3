@@ -102,7 +102,7 @@
 			    <h2>Keyboard Commands:</h2>
 		        <ul>
 		            <li>Left and right arrows show and hide the menu</li>
-		            <li>Esc key closes all open modal modal windows, and main menu.</li>
+		            <li>Esc key closes all open modal windows, and main menu.</li>
 		        </ul>
 		    </div>
 		    
