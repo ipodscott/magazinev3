@@ -97,6 +97,16 @@
 		        </p>
 		    </div>
 		    
+		    
+		      <div class="full">
+			    <h2>Keyboard Commands:</h2>
+		        <ul>
+		            <li>Left and right arrows show and hide the menu</li>
+		            <li>Esc key closes all open modal modal windows, and main menu.</li>
+		        </ul>
+		    </div>
+		    
+		    
     		
 		    <div class="full">
 			    <h2>Features:</h2>
@@ -112,9 +122,9 @@
 		            <li>Dynamically loading iframe, audio and video </li>
 		            <li>Lightweight JS, and CSS</li>
 		            <li>Sidr style menu</li>
-		            <li>Prohibitive scrolling during lightbox events</li>
 		            <li>Lightweight Parallax optimized for iOS</li>
 		            <li>Scalable H1, and H2 fonts</li>
+		            <li>Keyboard Commands for menu and modal window control</li>
 		            
 		        </ul>
 		    </div>
