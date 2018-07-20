@@ -2,7 +2,7 @@
 ## Overview
 Magazine is a slim framework primarily designed for tablets and desktop as either a multipage or single page website. The JS and CSS has been optimized to support audio, video, menus, smooth scrolling, image light boxes, video backgrounds and parallax effects without all the overhead created by including additional script and style libraries. Below are list of features included with this framework.
 
-[I'm an inline-style link with title](http://wpwebos.com/magazine_v3/ "Sample Page")
+[Sample](http://wpwebos.com/magazine_v3/ "Sample Page")
 
 
 ## Updates
