@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="https://www.wpwebos.com/magazine_v3/images/screenshot.jpg" />
-    <title></title>
+    <title>Magazine V.3</title>
     <style>
        body{background-color:#000}.all{opacity:0;-webkit-opacity:0}.open-overlay{display:block;position:fixed;top:0;left:0;width:100%;height:100vh;z-index:99999;background-color:#121212}.open-overlay-box{display:table;height:100vh;width:100%;text-align:center}.open-overlay-logo{display:table-cell;vertical-align:middle;opacity:.2;-webkit-opacity:.2}.open-overlay-logo img{max-width:120px!important;width:90%}
        </style>
 </head>
 
 <body>
-    <div class="all">
+ 
         <div class="full-panel" style="" name="video-bg">
             <div class="vid-bg-box">
-                <video src="video/waterfall_bg.mp4" class="video_background" autoplay="autoplay" muted loop="loop"> </video>
+                <video src="video/waterfall_bg.mp4" class="video_background" autoplay="autoplay" loop="loop"> </video>
             </div>
             <div class="panel-overlay dark"></div>
             <div class="middle">
@@ -27,8 +27,8 @@
                 </div>
             </div>
         </div>
-        <div class="full-panel" name="intro">
-            <div class="middle">
+        <div class="panel" name="intro">
+            <div class="top">
                 <div class="main-content">
                     <div class="full">
                         <h1 class="center">Magazine Framework V.3</h1></div>
@@ -112,7 +112,12 @@
                         <div class="half">
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet risus vel diam dictum convallis. Integer et nulla venenatis, malesuada metus sed, vestibulum justo. Pellentesque ornare justo non orci aliquet ullamcorper. Nullam consectetur lacus mauris, pellentesque hendrerit dolor hendrerit eget. Nulla non finibus mi, ac dignissim elit. Proin semper bibendum ipsum, non dignissim arcu feugiat sit amet. Vestibulum porta nunc urna, ac mattis quam sodales ut.</p>
                             <p>Praesent faucibus justo eu mi varius, a iaculis sapien elementum. Suspendisse ut porttitor orci. Nam vitae tincidunt sem. Sed eget elementum velit. Ut sit amet rhoncus leo. Donec lobortis dictum risus, et rhoncus dui posuere sed. Maecenas id fringilla lectus. Nullam vitae leo auctor, luctus mi a, tempor elit. Cras porttitor at velit ac pharetra. Sed lacinia sollicitudin pharetra. Nullam fringilla libero in libero viverra commodo. Fusce eget porta magna. Nulla porttitor, urna eu posuere cursus, ligula augue facilisis augue, id aliquet felis dolor id nunc. Phasellus quis ultricies libero, ac mollis nibh. In interdum commodo sollicitudin.</p>
-                            <div class="play-audio" audioUrl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/try_me.mp3">Play Audio Two <i class="material-icons">volume_up</i></div>
+                            <div class="play-audio big" audioUrl="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/try_me.mp3">
+	                            <img class="play-active" src="images/ripple.svg">
+	                            <i class="material-icons">volume_up</i>
+	                        </div>
+	                        
+                            <span class="big-play-title"> Here is a really long title with or information.</span>
                         </div>
                         
                     </div>
@@ -308,326 +313,16 @@
 	                
 	                <div class="row">
 	                	<div class="break center">
-	                        <a href="#gallery">
-	                            <btn>Gallery</btn>
-	                        </a>
-	                    </div>
-	                </div>
-            </div>
-        </div>
-        
-        <div class="half-panel parallax" style="background-image:url(images/gallery.jpg);" name="gallery">
-            <div class="panel-overlay"></div>
-            <div class="middle">
-                <div class="main-content">
-                    <h1 class="center">Gallery</h1>
-                   
-                </div>
-            </div>
-        </div>
-        
-          <div class="full-panel">
-	        <div class="middle">
-		        <div class="main-content">
-			        <div class="full">
-				        <h2>Gallery Name</h2>
-				        
-				        <div class="full gallery-box">
-
-						
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/SH742.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/SH742-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/SH726.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/SH726-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/motorcycle.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/motorcycle-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/motorcycle_2.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/motorcycle_2-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/combine.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/combine-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/b_r5_c9.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/b_r5_c9-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1948-radebaugh-hotel-sm.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1948-radebaugh-hotel-sm-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_12.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_12-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_11.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_11-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_10.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_10-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_08.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_08-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_04.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_04-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_01.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1947_01-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_10.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_10-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_08.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_08-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_07.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_07-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_06.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_06-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_05.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_05-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_03.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_03-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_02_2.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1946_02_2-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1945_12.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1945_12-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1945_11.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1945_11-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944_10.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944_10-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944_06.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944_06-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944_06_2.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944_06_2-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944_01.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1944_01-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1943_12.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1943_12-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1943_03.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1943_03-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1942.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1942-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1942_10.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1942_10-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1942_2.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/1942_2-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/46.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/46-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/22.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/22-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/21.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/21-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/18.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/18-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/17.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/17-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/17-1.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/17-1-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/16.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/16-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/13.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/13-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/12.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/12-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/13-1.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/13-1-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/12-1.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/12-1-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/10.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/10-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/10-1.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/10-1-150x150.jpg">
-											
-	
-			
-					
-				
-					<img imgurl="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/08.jpg" class="pop-image shadow" src="http://www.vintagehardstyle.com/wp-content/uploads/2017/08/08-150x150.jpg">
-											
-	
-			
-</div>
-
-<div class="row">
-	                	<div class="break center">
 	                        <a href="#contact">
 	                            <btn>Contact Form</btn>
 	                        </a>
 	                    </div>
 	                </div>
-				        
-			        </div>
-		        </div>
-	        </div>
-          </div>
+            </div>
+        </div>
         
         
-        <div class="half-panel parallax" style="background-image:url(images/mail_bg.jpg);" name="contact">
+         <div class="half-panel parallax" style="background-image:url(images/mail_bg.jpg);" name="contact">
             <div class="panel-overlay"></div>
             <div class="middle">
                 <div class="main-content">
@@ -636,9 +331,9 @@
                 </div>
             </div>
         </div>
-     
         
-        <div class="full-panel">
+        
+        <div class="panel">
 	        <div class="top">
 		        <div class="main-content">
 			        
@@ -738,7 +433,7 @@
             <div class="panel-overlay"></div>
             <div class="middle">
                 <div class="main-content">
-                    <h1 class="center">Tab Content</h1>
+                    <h1 class="center">Tabbed Content</h1>
                        
                     </div>
                 </div>
@@ -746,10 +441,10 @@
         </div>
         
         
-        <div class="full-panel">
+        <div class="panel">
 	        <div class="top">
 		        <div class="main-content">
-			    	<div class="row">
+			    	<div class="full">
 						<ul class="tabs">
 							<li class="tab-link current" data-tab="tab-1">Tab One</li>
 							<li class="tab-link" data-tab="tab-2">Tab Two</li>
@@ -788,6 +483,7 @@
 		        </div>
 	        </div>
         </div>
+        
         
         
         <div class="footer-audio">
@@ -866,9 +562,8 @@
                 <li><a href="#video">Video Sample</a></li>
                 <li><a href="#layout">Basic Layout</a></li>
                 <li><a href="#big-media">Big Media Link</a></li>
-                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Sample Contact Form</a></li>
-                <li><a href="#tabs">Tabs</a></li>
+                <li><a href="#tabs">Tabbed Content</a></li>
             </ul> <i class="material-icons close-menu">close</i></div>
         <div class="modal-vid">
             <div class="movie-box">
@@ -884,7 +579,8 @@
         <div class="btt-footer">
             <a href="#video-bg"><img class="shadow" src="images/top_link.svg"></a>
         </div>
-    </div>
+        
+
    
     
     <div class="open-overlay">
@@ -892,14 +588,13 @@
             <div class="open-overlay-logo"><img class="cover-title-image" src="images/spinner.svg"></div>
         </div>
     </div>
-     <link href="css/fonts.css" rel="stylesheet">
-    <!--<link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,500,600,700|Material+Icons" rel="stylesheet"> -->
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,500,600,700|Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main_min.css">
     <!--<link rel="stylesheet" type="text/css" href="css/audioplayer.css">-->
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/audioplayer_min.js"></script>
     <script src="js/scripts_min.js"></script>
-
 </body>
 
 </html>
